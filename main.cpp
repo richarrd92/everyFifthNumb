@@ -7,8 +7,6 @@ int everyFifth(int a, int b);
 
 int main()
 {
-    cout << "_____________________________________________" << endl << endl; // Formatting
-
     int start, end;
     cout << "Enter the start integer: ";
     cin >> start;
@@ -17,8 +15,6 @@ int main()
     cin >> end;
 
     cout <<"\nThe sum of every fifth integer between (" << start << " and " <<end << "): " << everyFifth(start, end) <<endl <<endl;
-
-    cout << "_____________________________________________" << endl; // Formatting
 
     return 0;
 }
